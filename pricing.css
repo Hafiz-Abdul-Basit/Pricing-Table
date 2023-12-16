@@ -1,0 +1,277 @@
+.portfolioboxes .lottie-animation {
+  display: table;
+  margin: auto;
+}
+.package-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.portfolioboxes .portwrappp .mportt {
+  width: 100%;
+  font-size: 0;
+}
+.portfolioboxes .tab-custom .tabs.current {
+  display: inline-block;
+  padding: 0;
+}
+.branding_pricing_mm ul.tabs.tabs-logo.mportt.current {
+  margin: 35px 0 0;
+}
+.pkg-box {
+  margin-bottom: 30px;
+}
+.column {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 100%;
+}
+.card {
+  border-radius: 8px;
+  /* background-color: #fff; */
+  padding: 25px;
+  -webkit-transition: 300ms all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 300ms all cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 24px;
+  /* box-shadow: 0 8px 60px 0 rgba(103,151,255,.11), 0 12px 90px 0 rgba(103,151,255,.11); */
+}
+.package {
+  position: relative;
+  border: 0;
+  width: 87%;
+  margin: auto;
+  min-width: 85% !important;
+  border: 1px solid #ddd;
+  padding: 30px !important;
+  height: 550px;
+}
+.package {
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.accent-blue .card-title,
+.accent-blue .package_price .price,
+.accent-blue .list-2 li:before {
+  color: #000000;
+  text-align: left;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.package .package_price {
+  color: rgba(109, 124, 144, 0.5);
+  margin: 16px 0 30px;
+  text-align: left;
+}
+.accent-blue .card-title,
+.accent-blue .package_price .price,
+.accent-blue .list-2 li:before {
+  color: #000000;
+  text-align: left;
+}
+.package .package_price .price {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1em;
+  color: #002186 !important;
+}
+.package .package_price span {
+  font-size: 1.8rem;
+  margin-right: 0.2rem;
+  color: #1f1f1f;
+}
+.package .package_price span:last-child {
+  align-self: flex-end;
+  text-decoration: line-through;
+  font-size: 1.2rem;
+}
+.pkg-box .imgwrp {
+  position: relative;
+}
+.pkg-box .imgwrp img {
+  position: absolute;
+  width: 70px;
+  top: -90px;
+  right: 0;
+}
+.package ul {
+  padding: 20px;
+  padding-top: 40px;
+  position: relative;
+  margin-top: 15px;
+  /* border-top: 2px dotted; */
+}
+
+.package ul:before {
+  content: "Include:";
+  position: absolute;
+  font-size: 22px;
+  left: 1px;
+  font-weight: 700;
+  top: 7px;
+}
+.package ul li {
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  font-weight: 400;
+}
+ul.list-2 li {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 0.4rem;
+}
+.list-2 li {
+  position: relative;
+  margin-left: 22px;
+}
+.height220 li {
+  font-size: 14px;
+  margin: 0;
+}
+.portfolioboxes p {
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+}
+.addon {
+  display: none;
+  font-size: 14px;
+}
+.package .detail-lnk {
+  font-size: 15px;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.accent-blue .primary-button {
+  background: #000000;
+  width: 100%;
+}
+.activate {
+  width: 280px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.list-2 li:before {
+  content: "\f00c";
+  font-size: 12px;
+  margin-right: 0;
+  font-family: FontAwesome;
+  position: absolute;
+  left: -19px;
+  color: #6ebc47 !important;
+  top: 2px;
+}
+.list-2 {
+  display: block;
+}
+.height220 {
+  height: 220px;
+}
+.list-2 {
+  height: 250px;
+  overflow-y: scroll;
+}
+.list-2::-webkit-scrollbar {
+  width: 4px;
+}
+
+.list-2::-webkit-scrollbar-thumb {
+  background-color: #0089f97e;
+  border-radius: 4px;
+}
+
+.list-2::-webkit-scrollbar-track:hover {
+  background-color: #f0f0f0;
+}
+
+.list-2::-webkit-scrollbar-thumb:hover {
+  background-color: #0089f97e;
+}
+
+.list-2::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.list-2 * {
+  scrollbar-color: #0089f97e #f0f0f0;
+}
+
+.list-2 *::-moz-scrollbar-thumb {
+  background-color: #0089f97e;
+  border-radius: 4px;
+}
+
+.list-2 *::-moz-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.list-2 *::-moz-scrollbar-thumb:hover {
+  background-color: #0089f97e;
+}
+.b-seller {
+  /* border: 1px solid #7d45a2; */
+  position: relative;
+}
+.b-seller:before {
+  content: "MOST POPULAR";
+  position: absolute;
+  font-size: 16px;
+  left: 28px;
+  top: -30px;
+  background: linear-gradient(to right, rgb(83 183 229) 0%, #8b5aac 100%);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+  z-index: 999;
+}
+.pkg-box {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.card:hover {
+  background: linear-gradient(
+    to right,
+    rgba(0, 174, 255, 0.283) 0%,
+    #00a2ff58 100%
+  );
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.pkg-box:hover {
+  transform: scale(1.05);
+}
+.activate:hover {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transform: scale(1.05);
+}
